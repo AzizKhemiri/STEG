@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coefficients de Correction</title>
+    <link rel="icon" href="images/soc.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .main {
+            text-align: center;
+            background-image: url('images/arriere_plan.jpg');
+            background-size: cover;
+            background-position: center;
+            width: 95%;
+            height: 95%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            padding: 32px;
+        }
+
+        .container {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            width: 50%;
+        }
+
+        .coefficients {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+        }
+        .coefficients div {
+            width: 45%;
+        }
+        .main .container h2 {
+            color: rgb(11, 59, 170);
+        }
+
+        .main .container .coefficients h3 {
+            color: rgb(11, 59, 170);
+        }
+
+        .retour {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            margin: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease; /* Transition douce pour le changement de couleur au survol */
+        }
+
+        .retour:hover {
+            background-color: black;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <h2>Les Coefficients de Correction</h2>
+            <div class="coefficients">
+                <div>
+                    <h3>Puissance</h3>
+                    <label for="cfp1">CFP1</label>
+                    <input type="text" id="cfp1" name="cfp1">
+                    <label for="cfp2">CFP2</label>
+                    <input type="text" id="cfp2" name="cfp2">
+                    <label for="cfp3">CFP3</label>
+                    <input type="text" id="cfp3" name="cfp3">
+                    <label for="cfp4">CFP4</label>
+                    <input type="text" id="cfp4" name="cfp4">
+                    <label for="cfp5">CFP5</label>
+                    <input type="text" id="cfp5" name="cfp5">
+                    <label for="cfp6">CFP6</label>
+                    <input type="text" id="cfp6" name="cfp6">
+                    <label for="cfp7">CFP7</label>
+                    <input type="text" id="cfp7" name="cfp7"><br>
+                    <label for="cfp_global">CFP GLOBAL</label>
+                    <input type="text" id="cfp_global" name="cfp_global">
+                </div>
+                <div>
+                    <h3>Consommation spécifique</h3>
+                    <label for="cfhr1">CFHR1</label>
+                    <input type="text" id="cfhr1" name="cfhr1">
+                    <label for="cfhr2">CFHR2</label>
+                    <input type="text" id="cfhr2" name="cfhr2">
+                    <label for="cfhr3">CFHR3</label>
+                    <input type="text" id="cfhr3" name="cfhr3">
+                    <label for="cfhr4">CFHR4</label>
+                    <input type="text" id="cfhr4" name="cfhr4">
+                    <label for="cfhr5">CFHR5</label>
+                    <input type="text" id="cfhr5" name="cfhr5">
+                    <label for="cfhr6">CFHR6</label>
+                    <input type="text" id="cfhr6" name="cfhr6">
+                    <label for="cfhr7">CFHR7</label>
+                    <input type="text" id="cfhr7" name="cfhr7">
+                    <label for="cfhr_global">CFHR GLOBAL</label>
+                    <input type="text" id="cfhr_global" name="cfhr_global">
+                </div>
+            </div>
+            <a href="0_index.html" class="retour"> Retour </a>
+        </div>
+    </div>
+    
+</body>
+</html>

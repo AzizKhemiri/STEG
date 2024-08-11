@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courbes de Correction</title>
+    <link rel="icon" href="images/soc.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .main {
+            text-align: center;
+            background-image: url('images/arriere_plan.jpg');
+            background-size: cover;
+            background-position: center;
+            width: 95%;
+            height: 95%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            padding: 32px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            width: 80%;
+            margin: 0 auto;
+        }
+        .box {
+            background-color:  rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            width: 45%;
+            text-align: center;
+        }
+        .box h2 {
+            color: rgb(11, 59, 170);
+        }
+
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            margin: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease; /* Transition douce pour le changement de couleur au survol */
+        }
+
+        .button:hover {
+            background-color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="box">
+                <h2>Courbe de correction de la puissance</h2>
+                <p>T ambiante</p>
+                <p>Pression</p>
+                <p>Humidité</p>
+                <p>PCI</p>
+                <p>Freq</p>
+                <p>EOH</p>
+                <p>T eau de mer</p>
+            </div>
+            <div class="box">
+                <h2>Courbe de correction de la consommation spécifique</h2>
+                <p>T ambiante</p>
+                <p>Pression</p>
+                <p>Humidité</p>
+                <p>PCI</p>
+                <p>Freq</p>
+                <p>EOH</p>
+                <p>T eau de mer</p>
+            </div>
+        </div>
+        <a href="0_index.html" class="button"> Retour </a>
+    </div>
+</body>
+</html>
